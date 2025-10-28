@@ -35,6 +35,11 @@ div {
     gap: 20px
 }
 
-main {
+body {
     background-image: url(imagenes/fondo.jpg);
 }
+
+.quitarmargen {
+    margin: 0;
+}
+
