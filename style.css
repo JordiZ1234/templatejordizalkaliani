@@ -5,3 +5,7 @@ div {
 .menu {
     list-style: none;
 }
+
+.flex {
+    display: flex;
+}
