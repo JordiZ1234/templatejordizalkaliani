@@ -37,6 +37,8 @@ div {
 
 body {
     background-image: url(imagenes/fondo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .quitarmargen {
