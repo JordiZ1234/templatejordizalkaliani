@@ -60,9 +60,12 @@ main {
 }
 
 .container {
-    width: 1600px;
     padding-right: 56px;
     padding-left: 56px;
+}
+
+.container2 {
+    width: 1600px;
 }
 
 .menu a{
