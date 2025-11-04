@@ -1,6 +1,4 @@
-div {
-    border: 2px black solid;
-}
+
 
 .menu {
     list-style: none;
@@ -32,13 +30,17 @@ div {
 }
 
 .gap2 {
-    gap: 20px
+    gap: 20px;
 }
 
-body {
-    background-image: url(imagenes/fondo.jpg);
+main {
+    display: flex;
+    justify-content: center;
+    background-image: url(imagenes/fondo1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    flex-direction: column;
+    align-items: center;
 }
 
 .quitarmargen {
@@ -50,9 +52,38 @@ body {
 }
 
 .backgroundazul {
-    background-color: #000E36;
+    background-color: #001a57;
 }
 
 .colorblanco {
     color: white;
+}
+
+.container {
+    width: 1600px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    
+}
+
+.menu a{
+    text-decoration: none;
+    list-style: none;
+    color: black;
+}
+
+footer {
+    display: flex;
+    bottom: 0;
+    width: 100%;
+    position: fixed;
+    justify-content: center;
+    background-color: #001a57;
+    color: white;
+}
+
+.column {
+    align-items: center;
+    flex-direction: column;
 }
