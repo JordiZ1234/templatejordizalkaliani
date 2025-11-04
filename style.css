@@ -1,5 +1,8 @@
 
 
+.justificarcentro {
+    justify-content: center;
+}
 .menu {
     list-style: none;
 }
@@ -37,10 +40,7 @@ main {
     display: flex;
     justify-content: center;
     background-image: url(imagenes/fondo1.jpg);
-    background-repeat: no-repeat;
     background-size: cover;
-    flex-direction: column;
-    align-items: center;
 }
 
 .quitarmargen {
@@ -61,10 +61,8 @@ main {
 
 .container {
     width: 1600px;
-    justify-content: center;
-    display: flex;
-    align-items: center;
-    
+    padding-right: 56px;
+    padding-left: 56px;
 }
 
 .menu a{
@@ -86,4 +84,11 @@ footer {
 .column {
     align-items: center;
     flex-direction: column;
+}
+
+.ppp{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    width: 800px;
 }
