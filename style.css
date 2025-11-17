@@ -98,7 +98,10 @@ footer {
 }
 
 button {
-  padding: 10px;
+  padding-right: 22px;
+  padding-left: 22px;
+  padding-top: 15px;
+  padding-bottom: 15px;
   border-radius: 5px;
   color: #001a57;
   border: none;
