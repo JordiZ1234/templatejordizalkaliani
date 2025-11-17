@@ -1,97 +1,139 @@
-
-
 .justificarcentro {
-    justify-content: center;
+  justify-content: center;
+}
+html {
+  font-family: sans-serif;
 }
 .menu {
-    list-style: none;
+  list-style: none;
 }
 
 .flex {
-    display: flex;
+  display: flex;
 }
-.flex h3{
-    display: flex;
+.flex h3 {
+  display: flex;
 }
 
-.iconos img{
-    width: 20px;
-    height: auto;
+.iconos img {
+  width: 20px;
+  height: auto;
 }
 
 .between {
-    justify-content: space-between;
+  justify-content: space-between;
 }
 
-.iconos2 img{
-    width: 30px;
-    height: auto;
+.iconos2 img {
+  width: 30px;
+  height: auto;
 }
-
+.iconos3  {
+  width: 120px;
+  height: auto;
+}
 .gap {
-    gap: 50px;
+  gap: 50px;
 }
 
 .gap2 {
-    gap: 20px;
+  gap: 20px;
 }
 
+
 main {
-    display: flex;
-    justify-content: center;
-    background-image: url(imagenes/fondo1.jpg);
-    background-size: cover;
+
+  background-image: url(imagenes/fondo1.jpg);
+  background-size: cover;
+  height: 720px;
+
+  display: flex;
+  align-items: center;
+  padding-left: 350px;
 }
 
 .quitarmargen {
-    margin: 0;
+  margin: 0;
 }
 
 .backgroundblanco {
-    background-color: white;
+  background-color: white;
 }
 
 .backgroundazul {
-    background-color: #001a57;
+  background-color: #001a57;
 }
 
 .colorblanco {
-    color: white;
+  color: white;
 }
-
-.container {
-    padding-right: 56px;
-    padding-left: 56px;
+body {
+  margin: 0;
+  padding: 0;
 }
-
-.container2 {
-    width: 1600px;
-}
-
-.menu a{
-    text-decoration: none;
-    list-style: none;
-    color: black;
+.menu a {
+  text-decoration: none;
+  list-style: none;
+  color: black;
 }
 
 footer {
-    display: flex;
-    bottom: 0;
-    width: 100%;
-    position: fixed;
-    justify-content: center;
-    background-color: #001a57;
-    color: white;
+  bottom: 0;
 }
 
 .column {
-    align-items: center;
-    flex-direction: column;
+  align-items: center;
+  flex-direction: column;
 }
 
-.ppp{
-    display: flex;
-    flex-direction: column;
-    align-items: start;
-    width: 800px;
+.container {
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
+.padding {
+  padding-right: 56px;
+  padding-left: 56px;
+  background-color: #001a57;
+}
+
+button {
+  padding: 10px;
+  border-radius: 5px;
+  color: #001a57;
+  border: none;
+  background-color: white;
+}
+
+.alignitems {
+  align-items: center;
+}
+
+.gap3{
+  gap: 100px;
+}
+
+.alignitems img{
+  align-items: center;
+}
+
+.colorazul {
+  color: #001a57;
+}
+
+.text-gris p{
+  color: rgba(128, 128, 128, 0.555);
+  margin: 7px;
+}
+
+.text-gris {
+  margin-top: 3px;
+}
+
+.text h3{
+  margin: 10px;
+}
+
+.text{
+  margin-top: 5px;
 }
