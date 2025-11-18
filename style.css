@@ -140,3 +140,7 @@ button {
 .text{
   margin-top: 5px;
 }
+
+.border {
+  border-right: white solid 2px;
+}
